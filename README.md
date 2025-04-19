@@ -57,3 +57,11 @@
  1. List EC2 instances: `aws ec2 describe-instances`
  2. Create an EC2 instance: `aws ec2 run-instances --image-id <image_id> --instance-type <instance_type>`
  3. Start an EC2 instance
+
+
+CKS
+*************************************
+
+Run the kube-bench test again and ensure that all tests 
+
+./kube-bench --config-dir `pwd`/cfg --config `pwd`/cfg/config.yaml
