@@ -479,6 +479,30 @@ This indicates that the permissions and ownership are set correctly. Let me know
 
 
 10
+In the previous questions we fixed the below 3 failed tests. Now run CIS-CAT tool test again and verify that all the below tests pass.
+
+- 1.7.2 Ensure local login warning banner is configured properly
+
+- 5.1.2.1 Ensure rsyslog is installed
+
+- 4.1.2 Ensure permissions on /etc/crontab are configured
+
+Run below command again to confirm that tests are passing now!
+
+**sh ./Assessor-CLI.sh -i -rd /var/www/html/ -nts -rp index**
+
+Use below setting while running tests!
+
+Benchmarks/Data-Stream Collections: CIS Ubuntu Linux 20.04 LTS Benchmark v2.0.1
+
+Profile: Level 1 - Server
+
+![image](https://github.com/user-attachments/assets/611d6398-f7f3-453f-b814-f234366ae891)
+
+![image](https://github.com/user-attachments/assets/5b8d18dc-91c5-4e84-ae4c-c7a7c32090bb)
+
+![image](https://github.com/user-attachments/assets/a1c09274-a716-4dde-a1bf-22031a6aeec3)
+
 
 
 
