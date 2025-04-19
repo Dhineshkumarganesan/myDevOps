@@ -59,8 +59,14 @@
  3. Start an EC2 instance
 
 *****************************************************
-CKS - Certified Kubernetes Security Lab
-*************************************
+**CKS - Certified Kubernetes Security Lab**
+********************************************************
+
+*******************************
+**CLUSTER SETUP AND HARDENING LAB**
+******************************
+
+
 *****************************************************
 Lab - Run CIS Benchmark Assessment tool on Ubuntu
 *************************************************
