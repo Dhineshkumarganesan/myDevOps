@@ -427,6 +427,59 @@ Exiting; Exit Code: 0
 284/285: Ensure local interactive user home directories are configured.............................. Fail
 285/285: Ensure local interactive user dot files access is configured............................... Fail
 
+5
+
+
+6
+
+
+7
+
+
+
+8
+
+**Fix the failed test - 5.1.2.1 Ensure rsyslog is installed**
+
+Note: If the packages are not available, run the apt update command to refresh the package list before proceeding.
+
+Follow exact commands given in Remediation of given test
+
+Run the command **apt install rsyslog** to install rsyslog
+
+
+9
+Fix the failed test **- 4.1.2 Ensure permissions on /etc/crontab** are configured
+
+To ensure the permissions on /etc/crontab are configured correctly, you need to set the appropriate permissions and ownership. According to the CIS benchmark, the file should have the following settings:
+
+Permissions: 644 (read and write for owner, read for group and others)
+Owner: root
+Group: root
+Here's how you can achieve this:
+
+Set the correct permissions:
+   **chmod 644 /etc/crontab**
+
+Set the correct ownership:
+   **chown root:root /etc/crontab**
+
+After making these changes, you can verify them by running:
+
+**stat -c "%A %U %G" /etc/crontab**
+
+This command should output:
+
+**-rw-r--r-- root root**
+
+This indicates that the permissions and ownership are set correctly. Let me know if you need further assistance! 😊
+
+
+![image](https://github.com/user-attachments/assets/8909877c-b9d6-4173-b4e1-98bad8c17cbd)
+
+
+10
+
 
 
 *****************************************************
