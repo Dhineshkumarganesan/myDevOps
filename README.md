@@ -65,17 +65,17 @@ CKS - Certified Kubernetes Security Lab
 Lab - Run CIS Benchmark Assessment tool on Ubuntu
 *************************************************
 1
-What is CIS
+**What is CIS**
 
 Center for Internet Security
 
 2
-What is not a function of CIS?
+**What is not a function of CIS?**
 
 Monitor global internet activities
 
 3
-We have installed the CIS-CAT Pro Assessor tool called Assessor-CLI, under /root.
+**We have installed the CIS-CAT Pro Assessor tool called Assessor-CLI, under /root.**
 
 Please run the assessment with the Assessor-CLI.sh script inside Assessor directory and generate a report called index.html in the output directory /var/www/html/.Once done, the report can be viewed using the Assessment Report tab located above the terminal.
 
