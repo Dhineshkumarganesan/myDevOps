@@ -62,6 +62,10 @@
 CKS
 *************************************
 
+Lab - Run CIS Benchmark Assessment tool on Ubuntu
+
+Lab - Kube-bench
+
 Run the kube-bench test again and ensure that all tests 
 
 ./kube-bench --config-dir `pwd`/cfg --config `pwd`/cfg/config.yaml
